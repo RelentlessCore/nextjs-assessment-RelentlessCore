@@ -33,7 +33,7 @@ For this project, I worked with:
    ```
 3. Set up your database:
    ```bash
-   npx prisma db push
+   npx prisma migrate dev --name init
    ```
 4. Start the development server:
    ```bash
